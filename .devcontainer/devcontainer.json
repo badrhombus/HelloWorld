@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install --user -r everyone/requirements.txt",
+	"postCreateCommand": "pip install --user -r everyone/requirements.txt && git config --global --add safe.directory /workspaces/HelloWorld",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
